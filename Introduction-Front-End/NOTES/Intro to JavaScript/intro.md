@@ -51,6 +51,25 @@
 
 - A função `console.log` é uma bloco de código que permite que você enivie informações para o console, ou seja, ela é responsável por imprimir informações e frequentemente utilizada para encontrar erros no código;
 
+
+- A função `console.log` também pode produzir strings vazias (Strings sem informações), assim, quando reproduzida, retornará apenas uma nova linha;
+    Ex.
+
+    ```
+    console.log("I");
+    console.log("");
+    console.log("Know");
+    console.log();
+    console.log("JavaScript");
+    ```
+
+- Em ambos os casos, quando impresso um valor vazio, seja ele utilizando aspas ou não, o resultado será o mesmo;
+
+- Outros casos que gera a quebra de linha:
+    
+    - **\n** : Ao inserir dentro do conjunto que será impresso, irá gerar a quera de linha;
+
+
 ### Possíveis Erros:
 
 - No inicio, há diversas chances de um código possui um erro/falha. Os mais comuns são:
@@ -76,6 +95,140 @@
     
         `console.log("Hello, World!;`
 
+### Comentários:
+
+- Os comentários podem ajudar e melhorar a legibilidade de um código e assim, facilitando o entendimento para manter o código funcionando;
 
 
+- No caso do JavaScript, o interpretador ignora os texto quando iniciados em formato de comentário;
 
+
+- Dentro do JavaScript, é possível aplicar os comentários de duas formas:
+  
+    - **Comentário de Linha Única:** Refere-se aos comentários que ocuparam aoenas uma linha, dessa forma, auxiliando no entendimento do fragmento  do código em que for aplicado. Para aplicar esse tipo de comentário, utilizamos "//";
+  
+      Ex.
+
+        ```
+        console.log("Nice to see you!"); // Esse código irá mostrar a mensagem no console
+        ```
+
+    
+- **Comentário Multi-Linha:** Para abranger várias linhas de código, auxiliando a explicar partes complexas do código. Para esse tipo de comentário, utilizamos "/*";
+
+#### Melhores Práticas:
+
+- Utilize os comentários para explicar o "porquê" de um código, não apenas "o quê";
+
+
+- Evite comentários obvios;
+
+
+- Atualize os comentários conforme o código evolui;
+
+
+- Use comentários para melhorar a colaboração entre a equipe;
+
+## Declarando Variáveis:
+
+- Variável pode ser dito como um espaço livre na memória, onde os dados pode ser armazenados, acessados e manipulados quando necessário;
+
+
+- Em qualquer linguagem de programação, as variáveis são essenciais, já que são elas que permitem que armazenar algum dado e posteriormente, para que os desenvolvedores consiga recuperar ou manipular esse mesmo dado de forma eficiente;
+
+
+- Para declararmos/criar uma variável é necessário atribuir um valor a ela;
+
+
+- No JavaScript, há duas formas de declaramos uma variável:
+
+  1. **let:** Define uma variável mutável, ou seja, que o seu valor pode ser alterado;
+
+  2. **const:** Define uma variável de valor absoluto, ou seja, o valor não poderá ser alterado;
+
+
+- Ao declarar uma variável, busque nomeá-las apropriadamente, utilizamos nomes que descreva do que se trata o conteúdo;
+
+### Variáveis Mutáveis:
+
+- Assim como dito acima, uma variável pode armazenar qualquer tipo de dado, seja textos, números, etc;
+
+- Para entendermos como uma variável mutável funciona, vamos fazer o seguinte:
+
+    ```
+    let month = "November";
+    ```
+
+- Declaramos a variável "month" e atribuímos o valor "November", que é uma String, dessa forma, conseguimos acessar esse valor utilizando/chamando o nome da variável dentro do console;
+
+    ```
+    let month = "November";
+    console.log(month);
+    ```
+
+
+- Ao chamar a função e colocar o nome da variável, o conteúdo que será retornado no console será o valor atribuído, nesse caso, a palavra November;
+
+
+- Para alterar esse o valor armazenado, basta atribuirmos novamente um novo valor para a mesma variável;
+
+    ```
+    let month = "November";
+    month = "December";
+
+    console.log(month);
+    ```
+
+- No caso acima, após o novo valor atribuído para a variável `month`, quando aplicado na função `console.log`, o valor a ser retornado será o último na qual foi atribuído (Nesse caso, o valor será December).
+
+
+### Constantes:
+
+- Diferentemente das variáveis mutáveis, a variável `const`, quando declarada e atribuída a ela um valor, esse valor não poderá ser alterado;
+
+    ```
+    const language = "JavaScript";
+    ```
+
+- O valor "JavaScript" na qual foi atribuído se tornaria fixo/absoluto, e em caso de tentativa de alterar esse valor, seria retornado uma mensagem de erro;
+
+    ```
+    const language = "JavaScript";
+    language = "PHP"; //Uncaught TypeError: Assignment to constant variable.
+    ``` 
+
+
+### Outra Maneira de Declarar Variáveis:
+
+- Outra forma de declarar uma variável é utilizando o `var` que substitui a variável `let`;
+
+
+- A variável servia para declarar as variáveis antes da padronização do ECMAScript, onde foi introduzido o `let` e o `const`;
+
+
+- A diferença entre `var` das variáveis `let` e `const`, é que a var é acessível para toda a função, mesmo que esteja fora de seu bloc, enquanto `let` e `const` é limitadas ao bloco definido. Neste caso, variáveis declaradas com `var` possuem um maior potencial de _bugs_ ou erros;
+
+
+- A sintaxe da variável `var` não se diferencia das demais, sendo assim:
+
+    ```
+    var age = 19
+    ```
+
+- Uma outra forma de declarar uma variável é sem o uso de uma palavra chave (let, const ou var);
+    
+    Ex.
+  
+    ```
+    age = 19;
+    ```
+  
+#### Melhores Práticas:
+
+- Pratique usar `const` por padrão e mude para `let` somente quando precisar alterar o valor da variável;
+
+
+- Assim como dito acima, evite a usar a variável `var`, pois a memsa possui pontecial maior de geral/causar erros;
+
+
+- Evite também declarar variáveis sem o uso de sua definição do tipo (contante ou mutável), pois isso pode criar variáveis globais como o `var`;
