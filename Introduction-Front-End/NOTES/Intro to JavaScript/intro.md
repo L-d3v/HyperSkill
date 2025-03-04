@@ -3,13 +3,13 @@
 - JavaScript é uma linguagem de programação que pode ser utilizada para o desenvolvimento de Front-End e Back-End;
 
 
-- No Front-End, junto do HTML e CSS, o JavaScript auxiliar na criação de animação/interações dentro de uma página Web;
+- No Front-End, junto do HTML e CSS, o JavaScript auxiliar na criação de animação/interações em uma página Web;
 
 
 - No Back-End, o JS pode ajudar no gerenciamento de dados do usuário, trabalhando junto de um banco de dados e coordenando tarefas junto de um servidor;
 
 
-- O JavaScript segue um padrão para que continue alinhado aos recursos e melhorias no desenvolvimento Web, esse padrão é chamado de **ECMAScript (ES)**
+- O JavaScript segue um padrão para continuar alinhado aos recursos e melhorias no desenvolvimento Web, esse padrão é chamado de **ECMAScript (ES)**
 
 
 ## Java VS. JavaScript:
@@ -30,13 +30,13 @@
     `console.log ("I'm starting to learn JavaScript")`
 
 
-- Atualmente, qualquer navegador (moderno) possui um programa integrado que permite a execução do JS diretamente. Dessa forma, o Script acima seria impresso dentro do console do nevegador;
+- Atualmente, qualquer navegador (moderno) possui um programa integrado que permite a execução do JS diretamente. Dessa forma, o _Script_ acima seria impresso dentro do console do navegador;
 
 - O conjunto de palavras "Hello, World!" é chamado de **String**, para que uma string seja considerada, é preciso que a mesma esteja entre aspas simples ( ' ' ) ou duplas ( " " );
 
 ## Primeiro Código:
 
-- Ao iniciar no mundo da programação, é dito sobre uma tradição que se deve iniciar um programa que exiba "Hello, World!", para que execute essa tradição, podemos inserir no console o seguinte comando:
+- Ao iniciar no mundo da programação, é dito sobre uma tradição que se deve iniciar um programa que exiba "Hello, World!", para executar essa tradição, podemos inserir no console o seguinte comando:
     
 
     `console.log("Hello, World!")`
@@ -46,10 +46,10 @@
 
 ### Imprimindo Scripts:
 
-- Uma função é uma sequência de instruções que pode ser reutilizada dentro de um programa. Quando há a presença dos parênteses seguido do nome de uma função, ela é chamada para obter o resultado
+- Uma função é uma sequência de instruções que pode ser reutilizada em um programa. Quando há a presença dos parênteses seguido do nome de uma função, ela é chamada para obter o resultado
 
 
-- A função `console.log` é uma bloco de código que permite que você enivie informações para o console, ou seja, ela é responsável por imprimir informações e frequentemente utilizada para encontrar erros no código;
+- A função `console.log` é um bloco de código que permite que você envie informações para o console, ou seja, ela é responsável por imprimir informações e frequentemente utilizada para encontrar erros no código;
 
 
 - A função `console.log` também pode produzir strings vazias (Strings sem informações), assim, quando reproduzida, retornará apenas uma nova linha;
@@ -72,40 +72,40 @@
 
 ### Possíveis Erros:
 
-- No inicio, há diversas chances de um código possui um erro/falha. Os mais comuns são:
+- No início, há diversas chances de um código possui um erro/falha. Os mais comuns são:
 
     1. **Nomeação Impropria:** 
        É quando um comando é escrito de forma errada;
        
-    Ex.
-        
-        `consle.log("Hello, World!")`
-
-    2. **Usando letras maiúsculas e minúsculas:**
-       O JavaScript diferencia letras maiúscula de minúscula, dessa forma, é preciso escrever os códigos corretamente:
+        Ex.
+    
+            consle.log("Hello, World!")
   
-    Ex.
+    2. **Usando letras maiúsculas e minúsculas:**
+       O JavaScript diferencia letras maiúsculas de minúscula, dessa forma, é preciso escrever os códigos corretamente:
+  
+        Ex.
 
-        `CONSOLE.LOG("Hello, World!")`
+            CONSOLE.LOG("Hello, World!")
 
     3. **Ausência de Sinal:**
-        Quando houver a ausência de algum sinal, seja ele um ponto, ponto e virgula ou parentese (mais comuns), o código não será executado corretamente:
+       Quando houver a ausência de algum sinal, seja ele um ponto, ponto e vírgula ou parentese (mais comuns), o código não será executado corretamente:
     
-    Ex.
+          Ex.
     
-        `console.log("Hello, World!;`
+              console.log("Hello, World!;
 
 ### Comentários:
 
 - Os comentários podem ajudar e melhorar a legibilidade de um código e assim, facilitando o entendimento para manter o código funcionando;
 
 
-- No caso do JavaScript, o interpretador ignora os texto quando iniciados em formato de comentário;
+- No caso do JavaScript, o interpretador ignora o texto quando iniciados em formato de comentário;
 
 
 - Dentro do JavaScript, é possível aplicar os comentários de duas formas:
   
-    - **Comentário de Linha Única:** Refere-se aos comentários que ocuparam aoenas uma linha, dessa forma, auxiliando no entendimento do fragmento  do código em que for aplicado. Para aplicar esse tipo de comentário, utilizamos "//";
+    - **Comentário de Linha Única:** Refere-se aos comentários que ocuparam apenas uma linha, dessa forma, auxiliando no entendimento do fragmento do código em que for aplicado. Para aplicar esse tipo de comentário, utilizamos "//";
   
       Ex.
 
@@ -118,10 +118,10 @@
 
 #### Melhores Práticas:
 
-- Utilize os comentários para explicar o "porquê" de um código, não apenas "o quê";
+- Utilize os comentários para explicar o "por que" de um código, não apenas "o quê";
 
 
-- Evite comentários obvios;
+- Evite comentários óbvios;
 
 
 - Atualize os comentários conforme o código evolui;
@@ -203,10 +203,10 @@
 - Outra forma de declarar uma variável é utilizando o `var` que substitui a variável `let`;
 
 
-- A variável servia para declarar as variáveis antes da padronização do ECMAScript, onde foi introduzido o `let` e o `const`;
+- A variável servirá para declarar as variáveis antes da padronização do ECMAScript, onde foi introduzido o `let` e o `const`;
 
 
-- A diferença entre `var` das variáveis `let` e `const`, é que a var é acessível para toda a função, mesmo que esteja fora de seu bloc, enquanto `let` e `const` é limitadas ao bloco definido. Neste caso, variáveis declaradas com `var` possuem um maior potencial de _bugs_ ou erros;
+- A diferença entre `var` das variáveis `let` e `const`, é que a `var` é acessível para toda a função, mesmo que esteja fora de seu bloc, enquanto `let` e `const` são limitadas ao bloco definido. Neste caso, variáveis declaradas com `var` possuem um maior potencial de _bugs_ ou erros;
 
 
 - A sintaxe da variável `var` não se diferencia das demais, sendo assim:
@@ -215,7 +215,7 @@
     var age = 19
     ```
 
-- Uma outra forma de declarar uma variável é sem o uso de uma palavra chave (let, const ou var);
+- Outra forma de declarar uma variável é sem o uso de uma palavra-chave (let, const ou var);
     
     Ex.
   
@@ -228,7 +228,7 @@
 - Pratique usar `const` por padrão e mude para `let` somente quando precisar alterar o valor da variável;
 
 
-- Assim como dito acima, evite a usar a variável `var`, pois a memsa possui pontecial maior de geral/causar erros;
+- Assim como dito acima, evite a usar a variável `var`, pois a mesma possui pontencial maior de geral/causar erros;
 
 
 - Evite também declarar variáveis sem o uso de sua definição do tipo (contante ou mutável), pois isso pode criar variáveis globais como o `var`;
