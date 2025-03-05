@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6101aa74-37cf-4be6-a2ef-5cfe4d6b95d9" name="Changes" comment="Dia produtivo 2 :))))">
-      <change beforePath="$PROJECT_DIR$/Introduction-Front-End/NOTES/Intro to JavaScript/intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/Introduction-Front-End/NOTES/Intro to JavaScript/intro.md" afterDir="false" />
+    <list default="true" id="6101aa74-37cf-4be6-a2ef-5cfe4d6b95d9" name="Changes" comment="Sobre Adicionado">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +87,7 @@
       <workItem from="1741023615783" duration="11907000" />
       <workItem from="1741037504848" duration="258000" />
       <workItem from="1741053429872" duration="5792000" />
-      <workItem from="1741130236060" duration="6444000" />
+      <workItem from="1741130236060" duration="7863000" />
     </task>
     <task id="LOCAL-00001" summary="Introduction">
       <option name="closed" value="true" />
@@ -177,7 +177,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741059246925</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="More Study">
+      <option name="closed" value="true" />
+      <created>1741139158390</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1741139158390</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Sobre Adicionado">
+      <option name="closed" value="true" />
+      <created>1741140328676</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1741140328676</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +215,8 @@
     <MESSAGE value="Upodate" />
     <MESSAGE value="Dia produtivo :))))" />
     <MESSAGE value="Dia produtivo 2 :))))" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dia produtivo 2 :))))" />
+    <MESSAGE value="More Study" />
+    <MESSAGE value="Sobre Adicionado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sobre Adicionado" />
   </component>
 </project>
