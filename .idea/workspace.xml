@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6101aa74-37cf-4be6-a2ef-5cfe4d6b95d9" name="Changes" comment="Dia produtivo 2 :))))">
+      <change beforePath="$PROJECT_DIR$/Introduction-Front-End/NOTES/Intro to JavaScript/intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/Introduction-Front-End/NOTES/Intro to JavaScript/intro.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;L-d3v&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/L-d3v/HyperSkill.git&quot;,
+    &quot;accountId&quot;: &quot;a519795f-76a3-4768-b0ad-6e9a67cef641&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2tkIGxMxofVfEhOslnX5zxzEGdf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Node.js.Estapa1.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.25659.40" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6101aa74-37cf-4be6-a2ef-5cfe4d6b95d9" name="Changes" comment="" />
+      <created>1740889554427</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740889554427</updated>
+      <workItem from="1740889556265" duration="7690000" />
+      <workItem from="1740934322871" duration="230000" />
+      <workItem from="1740937516772" duration="6000" />
+      <workItem from="1741023615783" duration="11907000" />
+      <workItem from="1741037504848" duration="258000" />
+      <workItem from="1741053429872" duration="5792000" />
+      <workItem from="1741130236060" duration="6444000" />
+    </task>
+    <task id="LOCAL-00001" summary="Introduction">
+      <option name="closed" value="true" />
+      <created>1740897057302</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1740897057302</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Introduction">
+      <option name="closed" value="true" />
+      <created>1740897228872</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740897228872</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Introduction">
+      <option name="closed" value="true" />
+      <created>1740897248638</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740897248638</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Introduction">
+      <option name="closed" value="true" />
+      <created>1740897252642</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1740897252642</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Introduction">
+      <option name="closed" value="true" />
+      <created>1740897359120</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1740897359120</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Upodate">
+      <option name="closed" value="true" />
+      <created>1741037249789</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1741037249790</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Upodate">
+      <option name="closed" value="true" />
+      <created>1741037602539</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1741037602539</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Upodate">
+      <option name="closed" value="true" />
+      <created>1741037673454</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1741037673454</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Upodate">
+      <option name="closed" value="true" />
+      <created>1741037705085</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1741037705086</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Dia produtivo :))))">
+      <option name="closed" value="true" />
+      <created>1741059081101</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1741059081102</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Dia produtivo 2 :))))">
+      <option name="closed" value="true" />
+      <created>1741059246925</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1741059246925</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Introduction" />
+    <MESSAGE value="Upodate" />
+    <MESSAGE value="Dia produtivo :))))" />
+    <MESSAGE value="Dia produtivo 2 :))))" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dia produtivo 2 :))))" />
+  </component>
+</project>

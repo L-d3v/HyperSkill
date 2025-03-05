@@ -232,3 +232,56 @@
 
 
 - Evite também declarar variáveis sem o uso de sua definição do tipo (contante ou mutável), pois isso pode criar variáveis globais como o `var`;
+
+## Strings e Numbers:
+
+- Qualquer informação que é usada no JavaScript possui um **tipo**;
+
+
+- Como propriamente dito, o tipo é responsável para descrever o tipo de dado que será armazenado na memória  quais operações podem ser aplicadas a elas;
+
+
+- **String** é um tipo de dado usado no JavaScript. Tudo que for informação textual ou que esteja entre aspas (" ") é considerado uma String;
+    
+  Ex.
+
+    ```
+    console.log("Hello, World!");
+    console.log('string');
+    console.log("R$ 1.800");
+    ```
+  
+- **Numbers** pode ser dito como o tipo de dado mais importante na programação;
+
+
+- Dentro do JavaScript, podemos usar números positivos, negativos e até zero. Não há limitações em relação a adicionar ou registrar números;
+    
+    Ex.
+    
+    ```
+    console.log(12);
+    console.log(-500);
+    console.log(0.50);
+    ```
+  
+- Números inteiros podem contar objetos físicos, enquanto os reais (ponto flutuante) são bons para cálculos estatísticos e científicos;
+
+### Operador Typeof:
+
+- Para reconhecer facilmente o tipo de dado, podemos usar o operador `typeof`;
+
+- Há duas formas de usar esse operador:
+    
+    * Entre parênteses:
+
+      ```
+      console.log(typeof(9)); 
+      ```
+
+  * Sem parênteses:
+
+    ```
+    console.log(typeof 9); 
+    ```  
+
+- O resultado para ambos será o mesmo, o resultado a ser retornado será que o dado "9" é do tipo "number";
